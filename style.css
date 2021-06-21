@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    font-family: verdana;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2e9e1;
+}
+
+ul.nav {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #814256;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    color: white;
+    background-color: #814256;
+}
+
+ul li.active a {
+    background-color: #814256;
+    color: white;
+}
+
+#heading h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#heading h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+#img-div {
+    background-color: #814256;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#img-caption p {
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+}
+
+#biography h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 28px;
+}
+
+#tribute-info img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.img-circle {
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+#tribute-link {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    transition: 0.5s ease;
+    border-radius: 50px;
+}
+
+#tribute-info p {
+    margin-left: 30%;
+    display: block;
+    padding-bottom: 100px;
+}
+
+#tribute-link:hover {
+    color: white;
+    background-color: black;
+}
+
+.hit-movies {
+    background-color: #814256;
+}
+
+#movies h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+#movies-left {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movies-column ul li {
+    display: block;
+    color: white;
+    text-align: left;
+}
+
+.movies-column {
+    display: inline-block;
+    padding-left: 65px;
+    padding-bottom: 50px;
+}
+
+img.dil-bechara-image {
+    width: 248px;
+}
+
+img.kedarnath-image {
+    width: 232px;
+}
+
+img.chhichhore-image {
+    width: 215px;
+}
